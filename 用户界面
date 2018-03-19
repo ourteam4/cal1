@@ -27,16 +27,16 @@ btn4 = tkinter.Button(root,text = '分数换算',font = ('微软雅黑',20),fg =
 btn4.place(x = 0,y = 340,width = 120,height = 55)
 btn5 = tkinter.Button(root,text = 'BMI',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum())
 btn5.place(x = 120,y = 340,width = 120,height = 55)
-btn6 = tkinter.Button(root,text = '记账',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum('计算绩点'))
+btn6 = tkinter.Button(root,text = '记账',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum())
 btn6.place(x =240,y = 340,width = 120,height = 55)
 
-btn1 = tkinter.Button(root,text = '汇率',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum('汇率计算'))
+btn1 = tkinter.Button(root,text = '汇率',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum())
 btn1.place(x = 0,y = 395,width = 120,height = 55)
-btn2 = tkinter.Button(root,text = '日程',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum('赞'))
+btn2 = tkinter.Button(root,text = '日程',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum())
 btn2.place(x = 120,y = 395,width = 120,height = 55)
-btn3 = tkinter.Button(root,text = '绩点',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum('赞'))
+btn3 = tkinter.Button(root,text = '绩点',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum())
 btn3.place(x = 240,y = 395,width = 120,height = 55)
-btn0 = tkinter.Button(root,text = '四则运算',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum('赞'))
+btn0 = tkinter.Button(root,text = '四则运算',font = ('微软雅黑',20),fg = ('#4F4F4F'),bd = 0.5,command = lambda : pressNum())
 btn0.place(x = 3,y = 450,width = 360,height = 55)
 
 
