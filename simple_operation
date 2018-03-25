@@ -409,11 +409,11 @@ def chfunc():
                 BasicOpe(win)
 
             elif bu2.clicked(p0):
-                FuncGraph()
+                game()
             elif bu3.clicked(p0):
-                Integra()
+                random()
             elif bu4.clicked(p0):
-                Differ()
+                alarm()
         except:
                 drawlabel(win0,Point(35.0,5.0),'arial',9,'bold','Invaid Click')
 
