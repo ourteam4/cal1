@@ -40,7 +40,7 @@ def BMI():      #显示文字
     c=b/a/a
 	
     #output.setText(c)
-    #putput.draw(win1)   
+    #output.draw(win1)   
 	
     #win1.getMouse()
     if c< 18.5:
@@ -57,7 +57,7 @@ def BMI():      #显示文字
         Text(Point(1.5,0.5),'重度肥胖！').draw(win1)
 
     output.setText(c)
-    putput.draw(win1)	
+    output.draw(win1)	
 		
 def fxMax(a,b,func):
     x = a
